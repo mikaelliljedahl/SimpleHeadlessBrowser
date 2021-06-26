@@ -21,15 +21,13 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal SimpleBrowser.UnitTests/*.csproj
+    # - name: Test
+    #   run: dotnet test --no-build --verbosity normal SimpleBrowser.UnitTests/*.csproj
       
     - name: Publish  
       uses: brandedoutcast/publish-nuget@v2.5.2  
       with:   
        PROJECT_FILE_PATH: SimpleBrowser/SimpleBrowser.csproj
-                 # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
-       VERSION_FILE_PATH: Directory.Build.props
        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
 
 

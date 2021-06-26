@@ -16,7 +16,6 @@
     <PackageTags>headless browser http cookies browserautomation automation</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</PackageProjectUrl>
-	  <PackageLicenseUrl>https://opensource.org/licenses/BSD-3-Clause</PackageLicenseUrl>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
