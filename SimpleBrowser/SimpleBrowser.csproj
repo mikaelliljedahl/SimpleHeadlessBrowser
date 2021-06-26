@@ -4,7 +4,7 @@
     <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.</Copyright>
     <AssemblyTitle>SimpleHeadlessBrowser</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <VersionPrefix>0.7.0</VersionPrefix>
+    <Version>0.7.0</Version>
     <Authors>Nathan Ridley and the SimpleBrowser contributors.</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
 	  <LangVersion>8.0</LangVersion>
