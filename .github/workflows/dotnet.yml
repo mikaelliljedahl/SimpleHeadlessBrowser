@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal **/*Tests/*.csproj
+      run: dotnet test --no-build --verbosity normal SimpleBrowser.UnitTests/*.csproj
       
     - name: Publish  
       uses: brandedoutcast/publish-nuget@v2.5.2  
