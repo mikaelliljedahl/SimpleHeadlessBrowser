@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>SimpleBrowser is a lightweight, yet highly capable browser automation engine designed for automation and testing scenarios.</Description>
+    <Description>SimpleHeadlessBrowser is a lightweight, yet highly capable browser automation engine designed for automation and testing scenarios. This is a fork from SimpleBrowser which introduces Async pattern and implements IDisposible</Description>
     <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.</Copyright>
-    <AssemblyTitle>SimpleBrowser</AssemblyTitle>
+    <AssemblyTitle>SimpleHeadlessBrowser</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
     <VersionPrefix>0.7.0</VersionPrefix>
     <Authors>Nathan Ridley and the SimpleBrowser contributors.</Authors>
@@ -15,7 +15,7 @@
     <PackageId>SimpleBrowser</PackageId>
     <PackageTags>headless browser http cookies browserautomation automation</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/SimpleBrowserDotNet/SimpleBrowser</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</PackageProjectUrl>
 	  <PackageLicenseUrl>https://opensource.org/licenses/BSD-3-Clause</PackageLicenseUrl>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
@@ -25,7 +25,7 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <WarningsAsErrors />
-    <RepositoryUrl>https://github.com/SimpleBrowserDotNet/SimpleBrowser.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
 	<PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>

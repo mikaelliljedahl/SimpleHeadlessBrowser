@@ -2,22 +2,22 @@
 <package>
   <metadata>
     <version>$version$</version>
-    <authors>Nathan Ridley, Teun Duynstee, Kevin Yochum, Joe Feser</authors>
+    <authors>Nathan Ridley, Teun Duynstee, Kevin Yochum, Joe Feser, Mikael Liljedahl</authors>
     <owners>Nathan Ridley</owners>
-    <projectUrl>https://github.com/SimpleBrowserDotNet/SimpleBrowser</projectUrl>
+    <projectUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</projectUrl>
     <dependencies>
 		<group>
 			<dependency id="Newtonsoft.Json" version="12.0.3" />
       </group>
     </dependencies>
-    <id>SimpleBrowser</id>
-    <title>SimpleBrowser</title>
+    <id>SimpleHeadlessBrowser</id>
+    <title>SimpleHeadlessBrowser</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>SimpleBrowser is a lightweight, yet highly capable browser automation engine designed for automation and testing scenarios.</description>
     <summary></summary>
     <tags>headless browser http cookies browserautomation automation</tags>
   </metadata>
   <files>
-    <file src="bin\Release\netstandard2.0\SimpleBrowser.dll" target="lib\netstandard2.0\SimpleBrowser.dll" />
+    <file src="bin\Release\netstandard2.0\SimpleHeadlessBrowser.dll" target="lib\netstandard2.0\SimpleHeadlessBrowser.dll" />
   </files>
 </package>
