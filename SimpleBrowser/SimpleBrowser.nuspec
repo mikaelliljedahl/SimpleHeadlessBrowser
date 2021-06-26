@@ -13,6 +13,7 @@
     <id>SimpleHeadlessBrowser</id>
     <title>SimpleHeadlessBrowser</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
     <description>SimpleBrowser is a lightweight, yet highly capable browser automation engine designed for automation and testing scenarios.</description>
     <summary></summary>
     <tags>headless browser http cookies browserautomation automation</tags>
