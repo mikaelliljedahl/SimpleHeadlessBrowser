@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>SimpleHeadlessBrowser is a lightweight, yet highly capable browser automation engine designed for automation and testing scenarios. This is a fork from SimpleBrowser which introduces Async pattern and implements IDisposible</Description>
-    <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.</Copyright>
+    <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors. This fork was created by Mikael Liljedahl</Copyright>
     <AssemblyTitle>SimpleHeadlessBrowser</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Version>0.7.0</Version>
@@ -10,9 +10,9 @@
 	  <LangVersion>8.0</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DebugType>portable</DebugType>
-    <AssemblyName>SimpleBrowser</AssemblyName>
+    <AssemblyName>SimpleHeadlessBrowser</AssemblyName>
     <OutputType>Library</OutputType>
-    <PackageId>SimpleBrowser</PackageId>
+    <PackageId>SimpleHeadlessBrowser</PackageId>
     <PackageTags>headless browser http cookies browserautomation automation</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</PackageProjectUrl>
