@@ -38,11 +38,17 @@ namespace SimpleBrowser
 
         public void Dispose()
         {
-            foreach(var frame in Frames)
+            try
             {
-                frame.Dispose();
+                ClearWindowsInContext();
+
+                foreach (var frame in Frames)
+                {
+                    frame.Dispose();
+                }
+                this.Close();
             }
-            this.Close();
+            catch { } // child frame already disposed
             
         }
 
@@ -457,18 +463,6 @@ namespace SimpleBrowser
             _allWindows.Clear();
         }
 
-        public static void ClearWindows()
-        {
-            foreach (var list in _allContexts.ToArray())
-            {
-                foreach (var window in list.ToArray())
-                {
-                    window.Close();
-                }
-            }
-
-            _allContexts.Clear();
-        }
 
         public void Close()
         {
@@ -1654,10 +1648,7 @@ namespace SimpleBrowser
         private void Register(Browser browser)
         {
             _allWindows.Add(browser);
-            if (!_allContexts.Contains(_allWindows))
-            {
-                _allContexts.Add(_allWindows);
-            }
+          
 
             if (browser.WindowHandle == null)
             {
@@ -1665,7 +1656,6 @@ namespace SimpleBrowser
             }
         }
 
-        private static readonly List<List<Browser>> _allContexts = new List<List<Browser>>();
 
         #endregion private methods
     }
