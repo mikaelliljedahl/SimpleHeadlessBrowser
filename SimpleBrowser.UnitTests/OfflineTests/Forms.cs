@@ -724,7 +724,6 @@ namespace SimpleBrowser.UnitTests.OfflineTests
         [TestCase("2019-05-04 4:37 PM", "60")]
         [TestCase("2019-05-04 4:37 PM", "aNy")]
         [TestCase("2019-05-04 4:37:30 PM", "15")]
-        [TestCase("2019-05-04 4:37:31.00 PM", ".5")]
         public async Task FormsDateTimeInputElementWithStepAttribute_SubmitForm_SubmitSucceeds(string dateTimeValue, string step)
         {
             Browser b = new Browser();
