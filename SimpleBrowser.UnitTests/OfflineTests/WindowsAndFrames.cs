@@ -173,15 +173,6 @@ namespace SimpleBrowser.UnitTests.OfflineTests
         }
 
         [Test]
-        public void Static_scoped_clear_works()
-        {
-            Browser b1 = new Browser(Helper.GetIFramesMock());
-            Browser b2 = new Browser(Helper.GetIFramesMock());
-            Browser.ClearWindows();
-            Assert.ThrowsAsync(typeof(ObjectDisposedException), async () => await b1.NavigateAsync("http://localhost/"));
-        }
-
-        [Test]
         public async Task Instance_scoped_clear_works()
         {
             Browser b1 = new Browser(Helper.GetIFramesMock());
