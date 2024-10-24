@@ -25,7 +25,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal SimpleBrowser.UnitTests/*.csproj
       
     - name: Publish  
-      uses: brandedoutcast/publish-nuget@v2.5.2  
+      uses: brandedoutcast/publish-nuget@v2.5.5 
       with:   
        PROJECT_FILE_PATH: SimpleBrowser/SimpleBrowser.csproj
        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
