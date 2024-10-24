@@ -6,15 +6,16 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <Version>0.7.1</Version>
     <Authors>Nathan Ridley and the SimpleBrowser contributors.</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	  <LangVersion>8.0</LangVersion>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <DebugType>portable</DebugType>
     <AssemblyName>SimpleHeadlessBrowser</AssemblyName>
     <OutputType>Library</OutputType>
     <PackageId>SimpleHeadlessBrowser</PackageId>
     <PackageTags>headless browser http cookies browserautomation automation</PackageTags>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</PackageProjectUrl>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
@@ -26,21 +27,18 @@
     <WarningsAsErrors />
     <RepositoryUrl>https://github.com/mikaelliljedahl/SimpleHeadlessBrowser</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-	<PreserveCompilationContext>true</PreserveCompilationContext>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
-
   <PropertyGroup>
     <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
-  
   <ItemGroup>
-	  <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
-		  <PrivateAssets>all</PrivateAssets>
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
-  
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -48,12 +46,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-
 </Project>

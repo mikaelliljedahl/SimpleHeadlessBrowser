@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <Description>Sample for SimpleBrowser</Description>
     <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.</Copyright>
     <Authors>Nathan Ridley and the SimpleBrowser contributors.</Authors>
     <AssemblyTitle>Sample</AssemblyTitle>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DebugType>portable</DebugType>
-	<LangVersion>8.0</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <AssemblyName>Sample</AssemblyName>
     <OutputType>Exe</OutputType>
     <StartupObject>Sample.Program</StartupObject>
@@ -20,15 +19,12 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <WarningsAsErrors />
-	<PreserveCompilationContext>true</PreserveCompilationContext>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="RazorEngine.NetCore" Version="3.1.0" />
   </ItemGroup>
-  
   <ItemGroup>
     <ProjectReference Include="..\SimpleBrowser\SimpleBrowser.csproj" />
   </ItemGroup>
-
 </Project>

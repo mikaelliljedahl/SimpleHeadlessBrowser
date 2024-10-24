@@ -56,19 +56,19 @@ namespace SimpleBrowser.Query
         /// </summary>
         public int Length { get; set; }
 
-        /// <summary>
-        /// Populates a SerializationInfo with the data needed to serialize the target object.
-        /// </summary>
-        /// <param name="info">A <see cref="SerializationInfo"/> to populate/></param>
-        /// <param name="context">The <see cref="StreamingContext"/> of the <see cref="SerializationInfo"/></param>
-        [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
-        public override void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            base.GetObjectData(info, context);
+        ///// <summary>
+        ///// Populates a SerializationInfo with the data needed to serialize the target object.
+        ///// </summary>
+        ///// <param name="info">A <see cref="SerializationInfo"/> to populate/></param>
+        ///// <param name="context">The <see cref="StreamingContext"/> of the <see cref="SerializationInfo"/></param>
+        //[SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+        //public override void GetObjectData(SerializationInfo info, StreamingContext context)
+        //{
+        //    base.GetObjectData(info, context);
 
-            info.AddValue("Query", this.Query);
-            info.AddValue("Index", this.Index);
-            info.AddValue("Length", this.Length);
-        }
+        //    info.AddValue("Query", this.Query);
+        //    info.AddValue("Index", this.Index);
+        //    info.AddValue("Length", this.Length);
+        //}
     }
 }

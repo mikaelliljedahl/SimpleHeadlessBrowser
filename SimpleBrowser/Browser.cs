@@ -114,7 +114,7 @@ namespace SimpleBrowser
         {
             _allWindows = context ?? new List<Browser>();
             AutoRedirect = true;
-            UserAgent = "SimpleBrowser/0.6 (Windows NT 10.0; Win64; x64)";
+            UserAgent = "SimpleBrowser/0.7 (Windows NT 10.0; Win64; x64)";
             RetainLogs = true;
             UseGZip = true;
             Cookies = new CookieContainer();
