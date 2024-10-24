@@ -4,7 +4,7 @@
     <Copyright>Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors. This fork was created by Mikael Liljedahl</Copyright>
     <AssemblyTitle>SimpleHeadlessBrowser</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <Version>0.7.1</Version>
+    <Version>0.7.2</Version>
     <Authors>Nathan Ridley and the SimpleBrowser contributors.</Authors>
     <TargetFramework>net8.0</TargetFramework>
     <LangVersion>8.0</LangVersion>
